@@ -14,7 +14,7 @@ from matplotlib import pyplot as plt
 def import_data():
     print("Importing data...")
     # Tuple of different types of words
-    word_types = ('animals', 'countries', 'fruits', 'veggies')
+    word_types = ('animals.txt', 'countries.txt', 'fruits.txt', 'veggies.txt')
     # Initialize array to store count of words for each word type
     word_type_counts = np.zeros(len(word_types))
 

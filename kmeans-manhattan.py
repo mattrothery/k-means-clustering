@@ -13,7 +13,7 @@ from matplotlib import pyplot as plt
 
 def import_data():
     print("Importing data...")
-    word_types = ('animals', 'countries', 'fruits', 'veggies')
+    word_types = ('animals.txt', 'countries.txt', 'fruits.txt', 'veggies.txt')
     word_type_counts = np.zeros(len(word_types))
 
     feature_data = []
